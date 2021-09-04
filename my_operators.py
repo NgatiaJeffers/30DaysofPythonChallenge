@@ -18,3 +18,30 @@ side_c = float(input("Enter side C: "))
 perimeter = int(side_a + side_b + side_c)
 
 print("The perimeter of the triangle is ", perimeter)
+
+# Calculate area of a triangle
+triangle_length = float(input("Click on that length number: "))
+triangle_height = float(input("Click on that height number: "))
+
+area_of_triangle = int(triangle_length * triangle_height)
+
+print("The area of the triangle is ", area_of_triangle)
+
+# Finding the triangles perimeter
+
+perimeter_of_triangle = int(triangle_length + triangle_height) * 2
+
+print("Triangles of perimeter ", perimeter_of_triangle)
+
+
+# Area of circle
+pi = 3.14
+radius = float(input("Enter your radius: "))
+area_of_circle = int(pi * radius * radius)
+
+circumference = int(pi * radius) * 2
+
+print("Area of a circle: ", area_of_circle)
+print("Circumference: ", circumference)
+
+
